@@ -1,0 +1,30 @@
+{
+  "name": "rstamp-new-node-intellij",
+  "version": "0.0.1",
+  "description": "Generate a new IntelliJ Node Project (very basic).",
+  "main": "index.js",
+  "keywords": [
+    "intellij",
+    "node",
+    "generator"
+  ],
+  "license": "Eclipse Public License (EPL)",
+  "repository": "https://github.com/lcaballero/rstamp-new-node-intellij.git",
+  "scripts": {
+    "test": "mocha --reporter list --compilers coffee:coffee-script/register tests"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "coffee-script": "^1.8.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "nject": "^1.2.2",
+    "rubber-stamp": "0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.0",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.6.0"
+  }
+}
